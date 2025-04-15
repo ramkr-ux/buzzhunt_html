@@ -1,0 +1,60 @@
+:root {
+    --clr-accent: #40655e;
+    --clr-black-100: #131313;
+    --ff-headings: "Luxia", sans-serif;
+    --ff-body: "Montserrat", sans-serif;
+    --ff-sub: "Barlow", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    color: #111;
+    font-family: var(--ff-body);
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+}
+
+li,
+ol {
+    list-style: none;
+}
+
+p {
+    font-family: var(--ff-body);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Barlow", sans-serif;
+}
+
+button:focus {
+    outline: none !important;
+}
