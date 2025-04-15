@@ -60,7 +60,7 @@ button:focus {
 }
 
 /*Top header*/
-.top__header_bar #top__header {
+.top__header_bar{
     text-align: center;
 }
 
