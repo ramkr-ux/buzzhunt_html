@@ -58,3 +58,37 @@ h6 {
 button:focus {
     outline: none !important;
 }
+
+/*Top header*/
+.top__header_bar #top__header {
+    text-align: center;
+}
+
+.heading__title {
+    text-align: end;
+}
+
+.top_headings p {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.top_headings p span {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
+button.ln-btn {
+    border: none;
+    background: #212529;
+    color: #fff;
+    margin: 15px;
+    font-size: 14px;
+}
+
+button.ln-btn span.caret {
+    padding: 6px;
+}
